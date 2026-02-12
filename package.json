@@ -1,0 +1,16 @@
+{
+  "name": "orderease-gateway",
+  "version": "1.0.0",
+  "description": "Security Gateway for WhatsApp Restaurant Ordering",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "axios": "^1.7.0",
+    "dotenv": "^16.4.0",
+    "qrcode": "^1.5.4",
+    "cors": "^2.8.5"
+  }
+}
